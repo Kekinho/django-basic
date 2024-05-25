@@ -6,14 +6,14 @@
     "configurations": [
         {
             "name": "Python Debugger: Django",
-            "type": "debugpy",
+            "type": "python",
             "request": "launch",
             "args": [
                 "runserver"
             ],
             "django": true,
             "autoStartBrowser": false,
-            "program": "${workspaceFolder}\\manage.py"
+            "program": "${workspaceFolder}//manage.py"
         }
     ]
 }
