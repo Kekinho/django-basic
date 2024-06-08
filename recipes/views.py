@@ -7,8 +7,10 @@ def home(request):
         })
 
 
-def sobre(request):
-    return render(request, 'recipes/pages/sobre.html')
+def recipe(request, id):
+    return render(request, 'recipes/pages/recipe-view.html', context={
+        'name': 'Eric Bernardes',
+    })
 
 
 def contato(request):
