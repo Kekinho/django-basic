@@ -30,7 +30,3 @@ def recipe(request, id):
          'recipe': recipe,
          'is_detail_page': True,
     })
-
-
-def contato(request):
-    return render(request, 'recipes/pages/contato.html')
